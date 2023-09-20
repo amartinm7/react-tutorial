@@ -42,7 +42,9 @@ You can delete or rename the other files of the project but not these.
 
 ## Check the source files
 
-Check MyButton to see how react works
+Check `MyButton` to see how react works
+
+[MyButton.js](src%2Fcomponents%2Fbutton%2FMyButton.js)
 
 ## Available Scripts
 
