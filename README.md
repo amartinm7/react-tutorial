@@ -19,13 +19,15 @@ yarn global remove create-react-app
 npm install -g create-react-app
 
 # create react app
-npx create-react-app reactbasics
+npx create-react-app your-project-name
 
-# Creating a new React app in /Users/projects/reactbasics.
+# Creating a new React app in /Users/projects/your-project-name
 
 # Installing packages. This might take a couple of minutes.
 # Installing react, react-dom, and react-scripts with cra-template...
 ```
+Instead of installing all the react dependencies one by one, you can use create a simple react project using the basic 
+archetype `create-react-app`.
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
@@ -37,6 +39,10 @@ For the project to build, these files must exist with exact filenames:
 - src/index.js is the JavaScript entry point.
 
 You can delete or rename the other files of the project but not these.
+
+## Check the source files
+
+Check MyButton to see how react works
 
 ## Available Scripts
 
