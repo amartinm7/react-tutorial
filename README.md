@@ -1,6 +1,42 @@
 # Getting Started with Create React App
 
+resources: 
+- https://react.dev/blog/2023/03/16/introducing-react-dev
+- https://create-react-app.dev/docs/getting-started
+- https://dev.to/ruppysuppy/create-react-app-from-scratch-like-a-pro-de0
+
+Follow the next steps to create a simple react app
+
+## Create the empty app from scratch
+
+```bash
+# uninstall previous versions
+npm uninstall -g create-react-app
+# or 
+yarn global remove create-react-app
+
+# install latest versions
+npm install -g create-react-app
+
+# create react app
+npx create-react-app reactbasics
+
+# Creating a new React app in /Users/projects/reactbasics.
+
+# Installing packages. This might take a couple of minutes.
+# Installing react, react-dom, and react-scripts with cra-template...
+```
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
+## Folder structure
+
+For the project to build, these files must exist with exact filenames:
+
+- public/index.html is the page template;
+- src/index.js is the JavaScript entry point.
+
+You can delete or rename the other files of the project but not these.
 
 ## Available Scripts
 
