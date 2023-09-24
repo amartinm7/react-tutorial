@@ -9,5 +9,9 @@
 # run without network
 docker run -p 3000:3000 -it ms-reacttutor
 
+##
+# docker run -dp 3000:3000 --name ms-reacttutor ms-reacttutor:latest
+
+
 # to inspect
 # docker run -ti --entrypoint /bin/sh ms-meplatform
